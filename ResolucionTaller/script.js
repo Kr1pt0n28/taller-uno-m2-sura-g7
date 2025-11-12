@@ -68,3 +68,11 @@ mazo.reverse();
 console.log(mazo);
 mazo.shift();
 console.log(mazo);
+
+/*
+    Ejercicio 7: Gestion de aseintos de cine
+*/
+
+let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];
+asientos.fill("Reservado",1,4);
+console.log(asientos);
