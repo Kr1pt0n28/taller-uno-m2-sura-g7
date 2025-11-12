@@ -156,3 +156,12 @@ console.log(equipo);
 equipo.push("Pedro (Dev)","Luisa (Dev)");
 console.log(equipo);
 
+/*
+    Ejercicio 16: Puestos de Estacionamiento
+*/
+
+let parking = ["CarroA", "Libre", "Libre", "CarroB"];
+parking.shift();
+console.log(parking);
+parking.splice(0,2,"MotoA", "MotoB");
+console.log(parking);
