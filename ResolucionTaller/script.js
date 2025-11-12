@@ -86,3 +86,10 @@ productos.splice(2,1,"Mouse Nuevo");
 console.log(productos);
 
 
+/*
+    Ejercicio 9: orden alfabetico
+*/
+
+let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"];
+estudiantes.sort();
+console.log(estudiantes);
