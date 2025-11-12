@@ -175,3 +175,13 @@ feed.unshift("Alerta de Sistema");
 console.log(feed);
 feed.pop();
 console.log(feed);
+
+/*
+    Ejercicio 18: Lista de Invitados VIP
+*/
+
+let invitados = ["Carlos", "Beatriz", "David", "Ana"];
+invitados.sort();
+console.log(invitados);
+invitados.splice(1,1);
+console.log(invitados);
