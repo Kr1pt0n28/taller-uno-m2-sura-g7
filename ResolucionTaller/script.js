@@ -36,3 +36,15 @@ historial.pop();
 console.log(historial);
 historial.pop();
 console.log(historial);
+
+/*
+    Ejercicio 4: Cola de impresión (FIFO)
+*/
+
+let colaImpresion = ["doc1.pdf", "doc2.png", "doc3.jpg"];
+colaImpresion.shift();
+console.log(colaImpresion);
+colaImpresion.push("doc4.docx");
+console.log(colaImpresion);
+colaImpresion.shift();
+console.log(colaImpresion);
