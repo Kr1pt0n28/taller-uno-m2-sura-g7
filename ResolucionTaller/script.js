@@ -135,3 +135,13 @@ receta.unshift("Paso 1: Pre-calentar el horno");
 console.log(receta);
 receta.push("Paso 4: servir");
 console.log(receta);
+
+/*
+    Ejercicio 14: Invertir y reemplazar
+*/
+
+let palabras = ["uno", "dos", "cuatro"];
+palabras.reverse();
+console.log(palabras);
+palabras.splice(0,1,"tres");
+console.log(palabras);
