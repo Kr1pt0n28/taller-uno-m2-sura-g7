@@ -145,3 +145,14 @@ palabras.reverse();
 console.log(palabras);
 palabras.splice(0,1,"tres");
 console.log(palabras);
+
+/*
+    Ejercicio 15: Equipo de Proyecto
+*/
+
+let equipo = ["Ana (Líder)", "Juan (Dev)", "Maria (Diseñadora)"];
+equipo.splice(1,1);
+console.log(equipo);
+equipo.push("Pedro (Dev)","Luisa (Dev)");
+console.log(equipo);
+
