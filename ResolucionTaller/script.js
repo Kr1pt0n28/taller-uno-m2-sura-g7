@@ -22,8 +22,17 @@ console.log(tareas);
 tareas.unshift("Preparar reporte");
 console.log(tareas);
 
-tareas.splice(0,1);
+tareas.shift();
 console.log(tareas);
-tareas.splice(0,1);
+tareas.shift();
 console.log(tareas);
 
+/*
+    Ejercicio 3: pila de libros (LIFO)
+*/
+
+let historial = ["google.com" , "youtube.com" , "facebook.com"];
+historial.pop();
+console.log(historial);
+historial.pop();
+console.log(historial);
