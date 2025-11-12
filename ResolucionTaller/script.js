@@ -101,3 +101,15 @@ console.log(estudiantes);
 let puntuaciones = [100, 85, 92, 78];
 puntuaciones.fill(0);
 console.log(puntuaciones);
+
+/* 
+    Ejercicio 11: Carrito de compras (combinado)
+*/
+
+let carrito = [];
+carrito.push("Camisa", "Pantalones");
+console.log(carrito);
+carrito.unshift("Zapatos");
+console.log(carrito);
+carrito.splice(1,1);
+console.log(carrito);
