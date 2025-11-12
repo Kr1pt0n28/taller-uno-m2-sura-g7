@@ -93,3 +93,11 @@ console.log(productos);
 let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"];
 estudiantes.sort();
 console.log(estudiantes);
+
+/*
+    Ejercicio 10: Vaciar un arreglo (fill)
+*/
+
+let puntuaciones = [100, 85, 92, 78];
+puntuaciones.fill(0);
+console.log(puntuaciones);
