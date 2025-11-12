@@ -59,3 +59,12 @@ console.log(fila);
 fila.splice(1,0,"Jorge");
 console.log(fila);
 
+/*
+    Ejercicio 6: Mazo de cartas
+*/
+
+let mazo = ["As", "Rey", "Reina", "Jota"];
+mazo.reverse();
+console.log(mazo);
+mazo.shift();
+console.log(mazo);
