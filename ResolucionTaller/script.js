@@ -125,3 +125,13 @@ commits.pop();
 console.log(commits);
 commits.push("v1.2 corregido");
 console.log(commits);
+
+/*
+    Ejercicio 13: Receta de Cocina
+*/
+
+let receta = ["Paso 2: Mezclar ingredientes", "Paso 3: Hornear"];
+receta.unshift("Paso 1: Pre-calentar el horno");
+console.log(receta);
+receta.push("Paso 4: servir");
+console.log(receta);
